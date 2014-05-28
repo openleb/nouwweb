@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Search &mdash; nouwweb 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="nouwweb 0.1 documentation" href="../index.html" />
+    <link rel="next" title="Lists" href="lists.html" />
+    <link rel="prev" title="Lebanese Parliament API (nouwweb)" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="lists.html" title="Lists"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Lebanese Parliament API (nouwweb)"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../index.html">nouwweb 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="search">
+<h1>Search<a class="headerlink" href="#search" title="Permalink to this headline">¶</a></h1>
+<p>The <tt class="docutils literal"><span class="pre">/search</span></tt> endpoint is the main access to the API and allows the user to find information about the current members of parliament. There are multiple paramaters that can be added to the URL to filter and group the results of a query.</p>
+<p>To add a parameter it should be in the form:</p>
+<div class="highlight-none"><div class="highlight"><pre>&amp;key=value
+</pre></div>
+</div>
+<p>If a value contains a space it should be <a class="reference external" href="https://en.wikipedia.org/wiki/Percent-encoding">properly encoded</a>. As an example, here&#8217;s the endpoint for all the legislators in <tt class="docutils literal"><span class="pre">Beirut</span> <span class="pre">I</span></tt> that have a mobile phone.</p>
+<div class="highlight-none"><div class="highlight"><pre>/search?mobile=true&amp;district=Beirut%20I
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">In some parameters such as <tt class="docutils literal"><span class="pre">district</span></tt> and <tt class="docutils literal"><span class="pre">parties</span></tt>, the value of the parameter has to correspond to an existing value from a list we provide at a different API endpoint such as <tt class="docutils literal"><span class="pre">/districts</span></tt> and <tt class="docutils literal"><span class="pre">/parties</span></tt>.</p>
+</div>
+<div class="section" id="district">
+<h2>district<a class="headerlink" href="#district" title="Permalink to this headline">¶</a></h2>
+<p>The district that the member of parliament represents. The name should be one that appears at the API endpoint <tt class="docutils literal"><span class="pre">/districts</span></tt></p>
+<div class="highlight-none"><div class="highlight"><pre># List legislators that represent the district of Metn
+&amp;district=Metn
+</pre></div>
+</div>
+</div>
+<div class="section" id="deputies-terms">
+<h2>deputies_terms<a class="headerlink" href="#deputies-terms" title="Permalink to this headline">¶</a></h2>
+<p>The terms in parliament in which the legislator has been elected.</p>
+<div class="highlight-none"><div class="highlight"><pre># List legislators that were in the 1992 parliament
+&amp;deputies_term=1992
+</pre></div>
+</div>
+</div>
+<div class="section" id="party">
+<h2>party<a class="headerlink" href="#party" title="Permalink to this headline">¶</a></h2>
+<p>The legislators that belong to a certain political party. The name should be one that appears at the API endpoint <tt class="docutils literal"><span class="pre">/parties</span></tt></p>
+<div class="highlight-none"><div class="highlight"><pre># List legislators that are part of the Zahle Bloc
+&amp;party=Zahle%20Bloc
+</pre></div>
+</div>
+</div>
+<div class="section" id="sect">
+<h2>sect<a class="headerlink" href="#sect" title="Permalink to this headline">¶</a></h2>
+<p>The legislators that belong to a certain sect. The name should be one that appears at the API endpoint <tt class="docutils literal"><span class="pre">/sects</span></tt></p>
+<div class="highlight-none"><div class="highlight"><pre># List legislators that are Maronite
+&amp;sect=Maronite
+</pre></div>
+</div>
+</div>
+<div class="section" id="gender">
+<h2>gender<a class="headerlink" href="#gender" title="Permalink to this headline">¶</a></h2>
+<p>Can be either <tt class="docutils literal"><span class="pre">Female</span></tt> or <tt class="docutils literal"><span class="pre">Male</span></tt>.</p>
+<div class="highlight-none"><div class="highlight"><pre># List female legislators
+&amp;gender=Female
+</pre></div>
+</div>
+</div>
+<div class="section" id="mobile">
+<h2>mobile<a class="headerlink" href="#mobile" title="Permalink to this headline">¶</a></h2>
+<p>Can be either <tt class="docutils literal"><span class="pre">true</span></tt> or <tt class="docutils literal"><span class="pre">false</span></tt>. Lists representatives for which we have a mobile number.</p>
+<div class="highlight-none"><div class="highlight"><pre># List legislators for which we know the mobile phone
+&amp;mobile=true
+</pre></div>
+</div>
+</div>
+<div class="section" id="phone">
+<h2>phone<a class="headerlink" href="#phone" title="Permalink to this headline">¶</a></h2>
+<p>Can be either <tt class="docutils literal"><span class="pre">true</span></tt> or <tt class="docutils literal"><span class="pre">false</span></tt>. Lists representatives for which we have a landline number.</p>
+<div class="highlight-none"><div class="highlight"><pre># List legislators for which we know the landline phone
+&amp;phone=true
+</pre></div>
+</div>
+</div>
+<div class="section" id="fax">
+<h2>fax<a class="headerlink" href="#fax" title="Permalink to this headline">¶</a></h2>
+<p>Can be either <tt class="docutils literal"><span class="pre">true</span></tt> or <tt class="docutils literal"><span class="pre">false</span></tt>. Lists representatives for which we have a fax number.</p>
+<div class="highlight-none"><div class="highlight"><pre># List legislators for which we know the fax number
+&amp;fax=true
+</pre></div>
+</div>
+</div>
+<div class="section" id="twitter">
+<h2>twitter<a class="headerlink" href="#twitter" title="Permalink to this headline">¶</a></h2>
+<p>Can be either <tt class="docutils literal"><span class="pre">true</span></tt> or <tt class="docutils literal"><span class="pre">false</span></tt>. Lists representatives that have a twitter account.</p>
+<div class="highlight-none"><div class="highlight"><pre># List legislators that have a twitter account
+&amp;twitter=true
+</pre></div>
+</div>
+</div>
+<div class="section" id="facebook">
+<h2>facebook<a class="headerlink" href="#facebook" title="Permalink to this headline">¶</a></h2>
+<p>Can be either <tt class="docutils literal"><span class="pre">true</span></tt> or <tt class="docutils literal"><span class="pre">false</span></tt>. Lists representatives that have a facebook account.</p>
+<div class="highlight-none"><div class="highlight"><pre># List legislators that have a facebook account
+&amp;facebook=true
+</pre></div>
+</div>
+</div>
+<div class="section" id="email">
+<h2>email<a class="headerlink" href="#email" title="Permalink to this headline">¶</a></h2>
+<p>Can be either <tt class="docutils literal"><span class="pre">true</span></tt> or <tt class="docutils literal"><span class="pre">false</span></tt>. Lists representatives that have an email account.</p>
+<div class="highlight-none"><div class="highlight"><pre># List legislators that have a an email account
+&amp;email=true
+</pre></div>
+</div>
+</div>
+<div class="section" id="prettyprint">
+<h2>prettyprint<a class="headerlink" href="#prettyprint" title="Permalink to this headline">¶</a></h2>
+<p>Can be either <tt class="docutils literal"><span class="pre">true</span></tt> or <tt class="docutils literal"><span class="pre">false</span></tt>. Indents the response for pretty printing.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Search</a><ul>
+<li><a class="reference internal" href="#district">district</a></li>
+<li><a class="reference internal" href="#deputies-terms">deputies_terms</a></li>
+<li><a class="reference internal" href="#party">party</a></li>
+<li><a class="reference internal" href="#sect">sect</a></li>
+<li><a class="reference internal" href="#gender">gender</a></li>
+<li><a class="reference internal" href="#mobile">mobile</a></li>
+<li><a class="reference internal" href="#phone">phone</a></li>
+<li><a class="reference internal" href="#fax">fax</a></li>
+<li><a class="reference internal" href="#twitter">twitter</a></li>
+<li><a class="reference internal" href="#facebook">facebook</a></li>
+<li><a class="reference internal" href="#email">email</a></li>
+<li><a class="reference internal" href="#prettyprint">prettyprint</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../index.html"
+                        title="previous chapter">Lebanese Parliament API (nouwweb)</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="lists.html"
+                        title="next chapter">Lists</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/usage/search.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="lists.html" title="Lists"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../index.html" title="Lebanese Parliament API (nouwweb)"
+             >previous</a> |</li>
+        <li><a href="../index.html">nouwweb 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Marc Farra.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Lebanese Parliament API (nouwweb) &mdash; nouwweb 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="nouwweb 0.1 documentation" href="#" />
+    <link rel="next" title="Search" href="usage/search.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="usage/search.html" title="Search"
+             accesskey="N">next</a> |</li>
+        <li><a href="#">nouwweb 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="lebanese-parliament-api-nouwweb">
+<h1>Lebanese Parliament API (nouwweb)<a class="headerlink" href="#lebanese-parliament-api-nouwweb" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="about">
+<h1>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h1>
+<p>This is an API to query information about Lebanese members of parliament. The current data reflects the 2009 Parliament.
+The project is a joint effort by SMEX and Lamba Labs.</p>
+<p>Important links:</p>
+<ul class="simple">
+<li>Repository:    <a class="reference external" href="https://github.com/kamicut/legislators">https://github.com/kamicut/legislators</a></li>
+<li>Issues:        <a class="reference external" href="https://github.com/kamicut/legislators/issues">https://github.com/kamicut/legislators/issues</a></li>
+<li>Documentation: <a class="reference external" href="http://nouwweb.rtfd.org/">http://nouwweb.rtfd.org/</a></li>
+</ul>
+</div>
+<div class="section" id="usage">
+<h1>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h1>
+<p>The API is very simple to use and follows REST parameter conventions. A request to the API will return a JSON list of results according to the URL param string.</p>
+<p>Users can either get a list of values such as the list of districts at the endpoint <tt class="docutils literal"><span class="pre">/districts</span></tt>, or search for a subset of members of parliament using the endpoint <tt class="docutils literal"><span class="pre">/search</span></tt>.</p>
+<p>For example, here&#8217;s the list of legislators that have a mobile phone in the district <em>Beirut I</em></p>
+<div class="highlight-none"><div class="highlight"><pre>curl &#39;http://api.nouwweb.pw/search?mobile=true&amp;district=Beirut%20I&amp;prettyprint=true&#39;
+</pre></div>
+</div>
+<p>API details:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="usage/search.html">Search</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="usage/search.html#district">district</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage/search.html#deputies-terms">deputies_terms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage/search.html#party">party</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage/search.html#sect">sect</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage/search.html#gender">gender</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage/search.html#mobile">mobile</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage/search.html#phone">phone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage/search.html#fax">fax</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage/search.html#twitter">twitter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage/search.html#facebook">facebook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage/search.html#email">email</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage/search.html#prettyprint">prettyprint</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="usage/lists.html">Lists</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="usage/lists.html#names"><tt class="docutils literal"><span class="pre">/names</span></tt></a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage/lists.html#districts"><tt class="docutils literal"><span class="pre">/districts</span></tt></a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage/lists.html#parties"><tt class="docutils literal"><span class="pre">/parties</span></tt></a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage/lists.html#sects"><tt class="docutils literal"><span class="pre">/sects</span></tt></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="contributing">
+<h1>Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="authors">
+<h1>Authors<a class="headerlink" href="#authors" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><em>Index</em></a></li>
+<li><a class="reference internal" href="py-modindex.html"><em>Module Index</em></a></li>
+<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Lebanese Parliament API (nouwweb)</a></li>
+<li><a class="reference internal" href="#about">About</a></li>
+<li><a class="reference internal" href="#usage">Usage</a></li>
+<li><a class="reference internal" href="#contributing">Contributing</a></li>
+<li><a class="reference internal" href="#authors">Authors</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+
+  <h4>Next topic</h4>
+  <p class="topless"><a href="usage/search.html"
+                        title="next chapter">Search</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/index.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="usage/search.html" title="Search"
+             >next</a> |</li>
+        <li><a href="#">nouwweb 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Marc Farra.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>

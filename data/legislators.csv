@@ -1,0 +1,130 @@
+first_name,first_name_ar,last_name,last_name_ar,phone,fax,mobile,email,district,facebook,twitter,deputies_in_elections,party,party_ar,born_day,born_month,born_year,notes,id,district_id,party_id
+Nayla,نايلة,Tueni,تويني,01-974418,01 970375,03 340000,nayla.tueni@annahar.com,Beirut I,https://www.facebook.com/pages/Nayla-Tueni/12727061862,https://twitter.com/naylatueni,2009,Independent within 14 March,مستقل مع ١٤ آذار,31,8,1982,,9501,406,852
+Nadim,نديم,Gemayel,الجميل,01-610452,,,media@nadimgemayel.com,Beirut I,https://facebook.com/Nadim.Gemayel,https://twitter.com/nadimgemayel,2009,Kataeb Party,حزب الكتائب,1,5,1982,,11399,406,565
+Michel,ميشال,Pharaon,فرعون,01-329000,01 989000,70 681843,info@michelpharaon.com/mpharaon@dm.net.lb,Beirut I,X,X,,Independent within 14 March,مستقل مع ١٤ آذار,1,7,1959,,13061,406,852
+Serge,سيرج,Torsarkissian,طورسركيسيان,04-710824,04 710824,03-273473,serge_t@cyberia.net.lb,Beirut I,X,X,,Hunchak,حزب الهانشاغ,30,9,1965,,24165,406,179
+Jean,جان,Ogassapian,أوغاسبيان,01-997777,01 242698,03-339635,ogasbian@cyberia.net.lb,Beirut I,,,,Ramgavar,حزب الرمغافار الديمقراطي الليبرالي الأرمني,17,2,1954,,15722,406,984
+Sebouh,سيبوه,Kalbakian,قلبقيان,,,03-666515,info@hunchak.org,Beirut II,https://www.facebook.com/pages/Comrade-Sebouh-Kalpakian/70536058685,https://twitter.com/hunchaks,,Hunchak,حزب الهانشاغ,,,1960,,14130,990,179
+Arthur,آرثور,Nazarian,نزاريان,,,03-619890,,Beirut II,,,,Tashnag,الإتحاد الثوري الأرمني - الطاشناق,,,1951,,12803,990,184
+Hani,هاني,Kobeissy,قبيسي,,,03-935000,,Beirut II,,,,Amal Movement,حركة أمل,,,1959,,10064,990,41
+Nohad,نهاد,El Machnouk,المشنوق,01-755 011,,,nmachnouk@nmachnouk.com,Beirut II,https://www.facebook.com/NouhadMachnouk,https://twitter.com/NohadMachnouk,,Future Movement,تيار المستقبل,,,1953,,15532,990,827
+Saad,سعد الدين,Hariri,الحريري,,,,,Beirut III,https://www.facebook.com/Saad.R.Hariri,https://twitter.com/HaririSaad,,Future Movement,تيار المستقبل,18,5,1970,,9410,648,827
+Ammar,عمار,Houry,حوري,01-982100,,,,Beirut III,,https://twitter.com/Ammarhoury,,Future Movement,تيار المستقبل,,,1945,,7350,648,827
+Mohamad,محمد,Kabbani,قباني,01-801180/01-863601,01 362770,03 645111,,Beirut III,,,,Future Movement,تيار المستقبل,,,1941,,12252,648,827
+Tamam,تمام,Salam,سلام,,,,team@tammamsalam.net,Beirut III,https://www.facebook.com/TammamSalam,https://twitter.com/salamTammam,,Independent within 14 March,مستقل مع ١٤ آذار,,,1945,,6982,648,852
+Imad,عماد,El Hout,الحوت,01-814047,,03 316 737,,Beirut III,,,,Islamic Group,الجماعة الإسلامية,22,10,1962,,11140,648,743
+Ghazi,غازي,Youssef,يوسف,01-987500,,03-444009,,Beirut III,,,,Future Movement,تيار المستقبل,,,1954,,9952,648,827
+Ghazi,غازي,Aridi,العريضي,01-756200,01 756202,,info@ghaziaridi.org,Beirut III,,,,Progressive Socialist Party,الحزب التقدمي الاشتراكي,17,9,1954,,9414,648,28
+Atef,عاطف,Majdalani,مجدلاني,01-997777,05 459339,03-342424,amajda@inco.com .lb,Beirut III,,,,Future Movement,تيار المستقبل,,,1950,,10939,648,827
+Bassem,باسم,Chabb,الشاب,01-982100,,03-319336,,Beirut III,,,,Future Movement,تيار المستقبل,,,1957,,8071,648,827
+Nabil,نبيل,de Freige,دو فريج,,,03-618466,ndefreige@cyberia.net.lb,Beirut III,,,,Future Movement,تيار المستقبل,31,8,1955,,14941,648,827
+Khaled,خالد,Zahramam,زهرمان,,,03-003276,,Akkar,,,,Future Movement,تيار المستقبل,,,1966,,12676,69,827
+Khaled,خالد,El Daher,الضاهر,,,,,Akkar,,,,Future Movement,تيار المستقبل,,,1958,,11713,69,827
+Mouiine,معين,El Merehbi,المرعبي,,,,,Akkar,,,,Future Movement,تيار المستقبل,,,1959,,17045,69,827
+Khodr,خضر,Habib,حبيب,,,03-749100,,Akkar,,,,Future Movement,تيار المستقبل,,,1959,,6926,69,827
+Riad,رياض,Rahal,رحال,01-982100,,03-645601,,Akkar,,,,Future Movement,تيار المستقبل,,,1951,,5761,69,827
+Nidal,نضال,Tohme,طعمه,,,03-828131,,Akkar,,,,Future Movement,تيار المستقبل,,,1960,,7012,69,827
+Hadi,هادي,Hobeiche,حبيش,,,03-216616,,Akkar,,,,Future Movement,تيار المستقبل,,,1976,,9541,69,827
+Hachem,هاشم,Alameddine,علم الدين,01 982100,,,,Minyeh,,,,Future Movement,تيار المستقبل,,,1940,,15790,613,827
+Ahmad,أحمد,Fatfat,فتفت,06 490492,06 490535,03-747019,FATAHMP@cyberia.net.lb,Dinniyeh,,,,Future Movement,تيار المستقبل,28,3,1953,,10747,17,827
+Kassem,قاسم,Abdulaziz,عبد العزيز,06 611700,,03-613777,,Dinniyeh,,,,Tripoli Bloc,التكتل الطرابلسي,,,1951,,14664,17,203
+Mohammad,محمد,Safadi,الصفدي,01 339110/01 219014/01 371179,01 337628/ 06 205660,03-871780,msafadi@sgh.com.lb,Tripoli,,,,Tripoli Bloc,التكتل الطرابلسي,28,3,1944,,15305,276,203
+Najib,نجيب,Mikati,ميقاتي,01 790111/05 459670/01 982100,01 860503,03-222828,nmikati@najibmikati.org,Tripoli,,,,Tripolitan Solidarity Bloc,,24,12,1955,,11663,276,573
+Ahmad,أحمد,Karami,كرامي,,,03-239471,,Tripoli,,,,Tripolitan Solidarity Bloc,,,,1944,,8202,276,573
+Samir,سمير,El Jisr,الجسر,01 425670,,03-527853,,Tripoli,,,,Future Movement,تيار المستقبل,,,1944,,9081,276,827
+Mohammad,محمد,Kabbara,كبارة,06 434400/06 443070/06 201201/06 202202/06 600700,06 436000,03-730700,makabbara@hotmail.com,Tripoli,,,,Independent within 14 March,مستقل مع ١٤ آذار,18,10,1944,,18043,276,852
+Badr,بدر,Wannous,ونوس,,,03-260747,,Tripoli,,,,Future Movement,تيار المستقبل,,,1941,,8578,276,827
+Robert,روبير,Fadel,فاضل,,,03-835108,,Tripoli,,,,Independent within 14 March,مستقل مع ١٤ آذار,,,1970,,8144,276,852
+Samer,سامر,Saadeh,سعادة,,,03-444448,,Tripoli,,,,Kataeb Party,حزب الكتائب اللبنانية,,,1976,,8193,276,565
+Sleiman,سليمان,Frangieh,فرنجية,05 920720/06 662060,,03-272133 (Assist),,Zgharta,,,,Marada Movement,تيار المردة,18,10,1965,,18442,222,667
+Salim,سليم,Karam,كرم,,,03-648700,,Zgharta,,,,Marada Movement,تيار المردة,,,1946,,7019,222,667
+Estephan,إسطفان,Douaihy,دويهي,,,03-779988,,Zgharta,,,,Marada Movement,تيار المردة,,,1953,,14522,222,667
+Farid,فريد,Makari,مكاري,04 403507/01 989818/04 403472/04 521252/06 541644/01 982100 ext 2212,04 521252,03 547547,,Koura,,,,Future Movement,تيار المستقبل,24,10,1947,,11612,76,827
+Nicolas,نقولا,Ghosn,غصن,06 950053,,03 300396,,Koura,,,,Future Movement,تيار المستقبل,,,1940,,9708,76,827
+Farid,فريد,Habib,حبيب,01 982100,,,,Koura,,,,Lebanese Forces,القوات اللبنانية,,,1935,Passed away May 2012,6808,76,301
+Fadi,فادي,Karam,كرم,06 954 385,,,,Koura,,,,Lebanese Forces,القوات اللبنانية,,,1961,Replacing F.Habib,5825,76,301
+Strida,ستريدا,Geagea,جعجع,01 982100,,,,Bsharri,,,,Lebanese Forces,القوات اللبنانية,,,1967,,9367,272,301
+Elie,إيلي,Keyrouz,كيروز,09 952120,,03-472447,,Bsharri,,,,Lebanese Forces,القوات اللبنانية,,,1947,,8780,272,301
+Antoine,أنطوان,Zahra,زهرا,,,03-350498,,Batroun,,,,Lebanese Forces,القوات اللبنانية,,,1956,,9681,362,301
+Boutros,بطرس,Harb,حرب,01 381122,01 394609,03 290333,bharb@cyberia.net.lb,Batroun,https://www.facebook.com/BoutrosHarb,https://twitter.com/Harb_Boutros,,Independent within 14 March,مستقل مع ١٤ آذار,4,9,1944,,9983,362,852
+Walid,وليد,Khoury,خوري,,,03-212666,,Jbeil,,,,Free Patriotic Movement,التيار الوطني الحر,,,1955,,8630,48,512
+Simon,سيمون,Abi Ramia,أبي رميا,,,03-035902,,Jbeil,,,,Free Patriotic Movement,التيار الوطني الحر,,,1965,,11734,48,512
+Abbas,عباس,Hachem,هاشم,01 868177,01 868269,03-315706,abbas_hachem@macktoub.com,Jbeil,,,,Free Patriotic Movement,التيار الوطني الحر,25,12,1954,,11518,48,512
+Michel,ميشال,Aoun,عون,01 982100,,03-191918,,Kesserwan,,https://twitter.com/General_Aoun,,Free Patriotic Movement,التيار الوطني الحر,30,9,1933,,9390,926,512
+Neemtallah,نعمة الله,Abi Nasr,أبي نصر,09 935856,,03-671673,,Kesserwan,,,,Free Patriotic Movement,التيار الوطني الحر,,,1936,,18543,926,512
+Youssef,يوسف,Khalil,خليل,09 952120,,,,Kesserwan,,,,Free Patriotic Movement,التيار الوطني الحر,,,1947,,11123,926,512
+Gilbert,جلبيرت,Zouein,زوين,01 982100,,03-634142,,Kesserwan,,,,Free Patriotic Movement,التيار الوطني الحر,,,1952,,11371,926,512
+Farid,فريد,El Khazen,الخازن,01 982100,,03-741874,,Kesserwan,,,,Free Patriotic Movement,التيار الوطني الحر,,,1960,,11968,926,512
+Ibrahim,إبراهيم,Kanaan,كنعان,01 982100,,03-338812,,Metn,,,,Free Patriotic Movement,التيار الوطني الحر,,,1962,,10905,663,512
+Nabil,نبيل,Nicolas,نقولا,,,03-157762,,Metn,,,,Free Patriotic Movement,التيار الوطني الحر,,,1950,,9639,663,512
+Salim,سليم,Salhab,سلهب,,,03-616633,,Metn,,,,Free Patriotic Movement,التيار الوطني الحر,,,1945,,8143,663,512
+Samy,سامي,Gemayel,جميل,,,03-554444,,Metn,,,,Kataeb Party,حزب الكتائب اللبنانية,,,1980,,8380,663,565
+Ghassan,غسان,Moukheiber,مخيبر,01 331210/03 775222,01 201081,03-775222,gem@inco.com.lb,Metn,,,,Free Patriotic Movement,التيار الوطني الحر,8,12,1958,,21645,663,512
+Michel,ميشال,Murr,المر,04 404214/04 270000/04 271000/01 427774/04 406000,,,,Metn,,,,Independent,مستقل,,,1932,,7157,663,889
+Edgard,إدغار,Maalouf,معلوف,04 405402,,03-129214,aboul_ed@hotmail.com,Metn,,,,Free Patriotic Movement,التيار الوطني الحر,,,1934,,11095,663,512
+Hagop,هاغوب,Pakradounian,بقرادونيان,01 982100,,03-397766,,Metn,,,,Tashnag,الإتحاد الثوري الأرمني - الطاشناق,,,1956,,18286,663,184
+Naji,ناجي,Gharios,غاريوس,,,03-440777,,Baabda,,,,Free Patriotic Movement,التيار الوطني الحر,,,,,5797,471,512
+Hikmat,حكمت,Dib,ديب,,,03-300678,,Baabda,,,,Free Patriotic Movement,التيار الوطني الحر,16,4,1956,,7975,471,512
+Alain,آلان,Aoun,عون,,,03-245111,,Baabda,,,,Free Patriotic Movement,التيار الوطني الحر,,,1972,,5963,471,512
+Ali,علي,Ammar,عمار,01 450000 - 01 450450,,03-825725,,Baabda,,,,Hezbollah,حزب الله,,,1956,,4903,471,785
+Bilal,بلال,Farhat,فرحات,,,03-355600,,Baabda,,,,Hezbollah,حزب الله,,,1970,,8249,471,785
+Fady,فادي,El Aawar,الأعور,,,03-610202,,Baabda,,,,Lebanese Democratic Party,الحزب الديمقراطي اللبناني,,,,,6194,471,454
+Talal,طلال,Arslan,أرسلان,05 802 802,05 434 303,03-433303,,Aley,,,,Lebanese Democratic Party,الحزب الديمقراطي اللبناني,12,6,1965,,10834,673,454
+Akram,أكرم,Chehayeb,شهيب,01 308444/05 556600/05 557600,,03 695552/03 388999,,Aley,,,,Progressive Socialist Party,الحزب التقدمي الاشتراكي,17,10,1947,,14787,673,28
+Henri,هنري,Helou,حلو,,,03-277190,,Aley,,,,Progressive Socialist Party,الحزب التقدمي الاشتراكي,,,1938,,7203,673,28
+Fouad,فؤاد,Saadeh,سعادة,,,03-656002,,Aley,,,,Progressive Socialist Party,الحزب التقدمي الاشتراكي,,,,,5461,673,28
+Fady,فادي,Habr,الهبر,,,,,Aley,,,,Kataeb,حزب الكتائب اللبنانية,,,1954,,4826,673,515
+Walid,وليد,Jumblatt,جنبلاط,05 311555,,,,Chouf,,,,Progressive Socialist Party,الحزب التقدمي الاشتراكي,7,7,1949,,13299,86,28
+Marwan,مروان,Hamadeh,حمادة,01 360311,,,,Chouf,,,,Progressive Socialist Party,الحزب التقدمي الاشتراكي,,,1939,,10947,86,28
+Elie,إيلي,Aoun,عون,01 480183,01 381859,03-664382,,Chouf,,,,Progressive Socialist Party,الحزب التقدمي الاشتراكي,,,1939,,4950,86,28
+Dory,دوري,Chamoun,شمعون,,,03-890022,,Chouf,,,,National Liberal Party,حزب الوطنيين الأحرار,,,1931,,8448,86,383
+Georges,جورج,Adwan,عدوان,01 982100,,,,Chouf,,,,Lebanese Forces,القوات اللبنانية,,,1947,,9660,86,301
+Nehme,نعمه,Tohme,طعمة,04 525295/04 521180/ 190,,,,Chouf,,,,Progressive Socialist Party,الحزب التقدمي الاشتراكي,,,1934,,7040,86,28
+Alaeddine,علاء الدين,Terro,ترو,07 623344,07 623340,03-437537,,Chouf,,,,Progressive Socialist Party,الحزب التقدمي الاشتراكي,5,11,1953,,15691,86,28
+Ibrahim,إبراهيم,Najjar,نجار,,,,,Chouf,,,,Future Movement,تيار المستقبل,,,1941,,10982,86,827
+Bahia,بهية,Hariri,الحريري,07 723221,07 724740,03-720000 (TBC),,Saida,,,,Future Movement,تيار المستقبل,,,1953,,8290,995,827
+Fouad,فؤاد,Siniora,سنيورة,01 642720,,,,Saida,,,,Future Movement,تيار المستقبل,,,1943,,9719,995,827
+Nabih,نبيه,Berri,بري,,,,,Zahrani,,,,Amal Movement,حركة أمل,28,1,1938,,9415,217,41
+Ali,علي,Osseiran,عسيران,07 990551/07 990 552/01 982100 ext 2223,07 725290,03-855134,,Zahrani,,,,Amal Movement,حركة أمل,6,8,1946,,10161,217,41
+Michel,ميشال,Moussa,موسى,07 200333/01 982100 ext 2709,,03 245333,,Zahrani,,,,Amal Movement,حركة أمل,19,9,1949,,12670,217,41
+Ali,علي,Khreis,خريس,07 742033,,03-644174,,Sour,,,,Amal Movement,حركة أمل,19,12,1957,,9050,687,41
+Abdelmajid,عبد المجيد,Saleh,صالح,01 982100,,03-590356,,Sour,,,,Amal Movement,حركة أمل,,,1948,,14143,687,41
+Mohammad,محمد,Fneish,فنيش,01 279393,,,,Sour,,,,Hezbollah,حزب الله,10,2,1953,,15412,687,785
+Nawwaf,نواف,Moussawi,موسوي,,,,,Sour,,,,Hezbollah,حزب الله,,,1965,,13116,687,785
+Ziad,زياد,Aswad,أسود,,,,,Jezzine,,,,Free Patriotic Movement,التيار الوطني الحر,,,1968,,5904,289,512
+Michel,ميشال,Helou,حلو,,,,,Jezzine,,,,Free Patriotic Movement,التيار الوطني الحر,,,1949,,8428,289,512
+Issam,عصام,Sawaya,صوايا,,,,,Jezzine,,,,Free Patriotic Movement,التيار الوطني الحر,,,1942,,8336,289,512
+Ali,علي,Bazzi,بزي,07 530555,01 990800,03-424318,alibazzimp@hotmail.com,Bint Jbeil,,,,Amal Movement,حركة أمل,1,9,1958,,6367,282,41
+Ayoub,أيوب,Hmayed,حميد,01 855511,,,,Bint Jbeil,,,,Amal Movement,حركة أمل,,,1945,,8297,282,41
+Hassan,حسن,Fadlallah,فضل الله,01 982100,,03-663552,,Bint Jbeil,,,,Hezbollah,حزب الله,,,1967,,14207,282,785
+Abdellatif,عبد اللطيف,Zein,زين,01 800150/01 987654 off 412,,,,Nabatieh,,,,Amal Movement,حركة أمل,,,1932,,12633,909,41
+Yassine,ياسين,Jaber,جابر,01 808770,01 802080,03-380800,sigmalb@cyberia.net.lb,Nabatieh,,,,Amal Movement,حركة أمل,,,1951,,9494,909,41
+Mohammad,محمد,Raad,رعد,01 271853/01 210101,,03 610609,,Nabatieh,,,,Hezbollah,حزب الله,22,8,1955,,12008,909,785
+Ali,علي,Hassan Khalil,حسن خليل,01 840171,01 840177,03-632629,,Hasbaya/Marjeyoun,,,,Amal Movement,حركة أمل,14,7,1964,,18593,188,41
+Ali,علي,Fayyad,فياض,,,,,Hasbaya/Marjeyoun,,,,Hezbollah,حزب الله,,,1962,,5931,188,785
+Anwar,أنور,Khalil,الخليل,01 809970,01 810973,03 368555,akhalil@cyberia.net.lb,Hasbaya/Marjeyoun,,,,Amal Movement,حركة أمل,,,1938,,8332,188,41
+Kassem,قاسم,Hachem,هاشم,08 506010,08 506506,03-252075,,Hasbaya/Marjeyoun,,,,Arab Socialist Ba'ath Party of Lebanon,حزب البعث العربي الاشتراكي في لبنان,6,8,1960,,11266,188,458
+Assaad,أسعد,Hardan,حردان,04 295400,,,,Hasbaya/Marjeyoun,,,,Syrian Social Nationalist Party,الحزب السوري القومي الاجتماعي,31,7,1951,,12076,188,936
+Jamal,جمال,Jarrah,جراح,08 542144,,03-760080,,West Beqaa/Rashaya,,,,Future Movement,تيار المستقبل,,,1956,,8281,724,827
+Ziad,زياد,El Kadiri,القادري,,,03-411411,,West Beqaa/Rashaya,,,,Future Movement,تيار المستقبل,,,1979,,10544,724,827
+Amine,أمين,Wehbeh,وهبة,,,03-687784,,West Beqaa/Rashaya,,,,Democratic Left Movement,حركة اليسار الديمقراطي,,,1952,,8167,724,119
+Wael,وائل,Abou Faour,أبو فاعور,,,03-611403,wafaour@lp.gov.lb,West Beqaa/Rashaya,,,,Progressive Socialist Party,الحزب التقدمي الاشتراكي,,,1972,,12092,724,28
+Antoine,أنطوان,Saad,سعد,01 982100,,03-838000 (Assist),,West Beqaa/Rashaya,,,,Progressive Socialist Party,الحزب التقدمي الاشتراكي,,,1937,,8137,724,28
+Robert,روبير,Ghanem,غانم,05 456352,05 456365,03-776999 (Assist),ghanemr@dm.net.lb,West Beqaa/Rashaya,,,,Independent within March 14,مستقل مع ١٤ آذار,18,6,1942,,12278,724,81
+Nicolas,نقولا,Fattouche,فتوش,,,,,Zahlé,https://www.facebook.com/pages/Nicolas-Fattouch%D9%86%D9%82%D9%88%D9%84%D8%A7-%D9%81%D8%AA%D9%88%D8%B4/311911688913467,,,Zahle In our Hearts Bloc,زحله بالقلب,1,1,1943,,18289,562,75
+Tony,أنطوان,Abou Khater,أبو خاطر,,,03-804162,taboukhater@hotmail.com,Zahlé,,,,Lebanese Forces and Zahle Block,,,,1956,,13788,562,297
+Joseph,جوزف,Maalouf,معلوف,,,03-328233,,Zahlé,,,,Lebanese Forces and Zahle Block,,,,1960,,11135,562,297
+Shant,شانت,Jinjinian,جنيجيان,,,03-856641,,Zahlé,,,,Lebanese Forces and Zahle Block,,,,1974,,12809,562,297
+Elie,إيلي,Marouni,ماروني,,,,eliemarouni1@hotmail.com,Zahlé,,,,Kataeb and Zahle Block,,,,1964,,8504,562,952
+Assem,عاصم,Araji,عراجي,,,03-670405,,Zahlé,,,,Lebanon first and Zahle Block,,,,1953,,6981,562,238
+Okab,عقاب,Sakr,صقر,,,03-328233,,Zahlé,,,,Lebanon first and Zahle Block,,,,1975,,4890,562,238
+Hussein,حسين,Moussawi,موسوي,,,,,Baalbeck/Hermil,,,,Hezbollah,حزب الله,,,1943,,14806,338,785
+Hussein,حسين,El Hage Hassan,الحاج حسن,01 271853,01 271855,03-332732,,Baalbeck/Hermil,,,,Hezbollah,حزب الله,,,1960,,24077,338,785
+Nawwar,نوار,El Sahili,الساحلي,01 982100,,03-645222,,Baalbeck/Hermil,,,,Hezbollah,حزب الله,,,1967,,13626,338,785
+Ali,علي,Mekdad,مقداد,01 982100,,03-666661,,Baalbeck/Hermil,,,,Hezbollah,حزب الله,,,1961,,5760,338,785
+Ghazi,غازي,Zaiter,زعيتر,01 864364/01 373131,01 869006,03 746764/03 746764,,Baalbeck/Hermil,,,,Amal Movement,حركة أمل,30,6,1949,,11009,338,41
+Assem,عاصم,Qanso,قانصو,08 225400/01 865311,,03-632422,,Baalbeck/Hermil,,,,Arab Socialist Ba'ath Party of Lebanon,حزب البعث العربي الاشتراكي في لبنان,,,1937,,7204,338,458
+Walid,وليد,Succariyeh,سكرية,,,03-725720,,Baalbeck/Hermil,,,,Hezbollah,حزب الله,,,1948,,14558,338,785
+Kamel,كامل,Rifaii,رفاعي,01 651663/08 371508/08 371848,,03-708617,,Baalbeck/Hermil,,,,Islamic Action Front,جبهة العمل الإسلامي,,,1948.0,,9716,338,300
+Marwan,مروان,Fares,فارس,01 868600,,03 321694,,Baalbeck/Hermil,,,,Syrian Social Nationalist Party,الحزب السوري القومي الاجتماعي,,,1947,,8359,338,936
+Emile,إميل,Rahme,رحمة,,,03-301651,,Baalbeck/Hermil,,,,Solidarity Party,حزب التضامن اللبناني,,,1952,,6951,338,260

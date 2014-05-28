@@ -1,0 +1,20 @@
+{
+  "name": "legislators-api",
+  "version": "0.0.0",
+  "description": "An API to query info about lebanese legislators",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "open",
+    "data"
+  ],
+  "author": "Marc Farra",
+  "license": "MIt",
+  "dependencies": {
+    "request": "~2.34.0",
+    "restify": "~2.7.0",
+    "csv-stream": "~0.1.3"
+  }
+}
