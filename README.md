@@ -8,6 +8,6 @@ The project is a joint effort by SMEX and Lamba Labs.
 
 Important links:
 
-* Repository:    https://github.com/kamicut/legislators
-* Issues:        https://github.com/kamicut/legislators/issues
+* Repository:    https://github.com/openleb/nouwweb
+* Issues:        https://github.com/openleb/nouwweb/issues
 * Documentation: http://nouwweb.rtfd.org/
