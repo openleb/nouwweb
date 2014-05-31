@@ -41,10 +41,17 @@ API details:
 
 Contributing
 =============
+To contribute, fork the [github repo](http://github.com/openleb/nouwweb) or [raise an issue](http://github.com/openleb/issues). 
+You can also suggest changes on our mailing list [here](https://groups.google.com/forum/#!forum/openleb)
 
 Authors
 =======
 
+* Marc Farra [kamicut](http://github.com/kamicut)
+* Maya Kreidieh [acrylc](http://github.com/acrylc)
+* Jessica Dheere [jessdheere](http://github.com/jessdheere)
+* Mohamad Najem [MoNajem](https://twitter.com/Monajem)
+* Joey Ayoub [joeyayoub](https://twitter.com/joeyayoub)
 
 Indices and tables
 ==================
