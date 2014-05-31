@@ -50,7 +50,7 @@ Authors
 * Marc Farra [kamicut](http://github.com/kamicut)
 * Maya Kreidieh [acrylc](http://github.com/acrylc)
 * Jessica Dheere [jessdheere](http://github.com/jessdheere)
-* Mohamad Najem [MoNajem](https://twitter.com/Monajem)
+* Mohamad Najem [MoNajem](http://github.com/MohamadNajem)
 * Joey Ayoub [joeyayoub](https://twitter.com/joeyayoub)
 
 Indices and tables
