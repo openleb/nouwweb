@@ -28,7 +28,7 @@ For example, here's the list of legislators that have a mobile phone in the dist
 
 .. code-block:: none
 
-	curl 'http://api.nouwweb.pw/search?mobile=true&district=Beirut%20I&prettyprint=true'
+	curl 'http://api.openleb.io/search?mobile=true&district=Beirut%20I&prettyprint=true'
 
 API details:
 
